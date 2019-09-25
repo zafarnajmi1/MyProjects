@@ -1,0 +1,34 @@
+PODS:
+  - BadgeHub (0.1.1)
+  - BMPlayer (1.3.0):
+    - BMPlayer/Full (= 1.3.0)
+  - BMPlayer/Core (1.3.0)
+  - BMPlayer/Full (1.3.0):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.7.0)
+    - SnapKit (~> 5.0.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - BadgeHub
+  - BMPlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BadgeHub
+    - BMPlayer
+    - NVActivityIndicatorView
+    - SnapKit
+
+SPEC CHECKSUMS:
+  BadgeHub: 8632dc9ab9cfb1bee903ebd40f9de77d29323dc7
+  BMPlayer: 92a1c2a721694ba6ab107661e7aff670909671c6
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: dd5a70bf33f8e6127d69041b0df73cd6611de2b2
+
+COCOAPODS: 1.6.1
